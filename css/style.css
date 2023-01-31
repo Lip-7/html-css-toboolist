@@ -70,6 +70,8 @@ h1{
 
 .task-lists{
     width: 800px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 h3{
     font-weight: 600;
@@ -110,3 +112,9 @@ h3{
 .check-line{
     margin: 5px 0 1em 0;
 }
+
+.lastone{
+    padding-bottom: 15px;
+}
+
+task
