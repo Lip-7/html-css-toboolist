@@ -3,4 +3,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
+
+/* body */
+body{
+    background-color: F6F8F9;
+}
+
+/* header */
+header{
+    background-color: white;
+}
+h1{
+    vertical-align:middle;
+    display: inline;
+}
+#logo{
+    vertical-align: middle;
+}
+.botborder{
+    border-bottom: 1px solid rgba(211, 211, 211, 0.3);
+}
+.logo.container{
+    width: 1080px;
+}
+.container{
+    margin: 0 auto;
+}
+
+/* main */
+
+main{
+    background-color: F6F8F9;
+}
+.tasklist.container{
+    width: 900px;
+    margin-top: 2em;
+}
+
