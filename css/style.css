@@ -8,13 +8,27 @@
 
 /* body */
 body{
-    background-color: F6F8F9;
+    background-color: #F6F8F9;
+}
+/* utilities */
+.blueback{
+    background-color: #47ADF1;
+    border-color: #47ADF1;
+}
+.whiteback{
+    background-color: #ffffff;
+    border-color: #ffffff;
+
+}
+.white{
+    color: white;
+}
+.radius{
+    border-radius: 5px;
 }
 
 /* header */
-header{
-    background-color: white;
-}
+
 h1{
     vertical-align:middle;
     display: inline;
@@ -34,11 +48,22 @@ h1{
 
 /* main */
 
-main{
-    background-color: F6F8F9;
-}
-.tasklist.container{
-    width: 900px;
+
+.taskcheck.container{
+    width: 800px;
     margin-top: 2em;
+    padding: 1em 3em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
+.buttontask{
+    width: 80px;
+    height: 30px;
+}
+
+.textinput{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
