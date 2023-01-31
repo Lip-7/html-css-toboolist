@@ -18,8 +18,28 @@ body{
 .whiteback{
     background-color: #ffffff;
     border-color: #ffffff;
-
 }
+.violetback{
+    background-color: #9C72E4;
+    border-color: #9C72E4;
+}
+.greenback{
+    background-color: #64C0A9;
+    border-color: #64C0A9;
+}
+.orangeback{
+    background-color: #F29E33;
+    border-color: #F29E33;
+}
+.pinkback{
+    background-color: #D863A1;
+    border-color: #D863A1;
+}
+.lightgreenback{
+    background-color: #B0C926;
+    border-color: #B0C926;
+}
+
 .white{
     color: white;
 }
@@ -101,13 +121,15 @@ h3{
 }
 
 .label{
-    width: 100px;
+    width: fit-content;
     text-align: center;
     display: inline-block;
     border-radius: 8px;
     height: 25px;
-    line-height: 25px;
+    line-height: 2px;
     margin-left: 2px;
+    padding: 11px;
+    font-size: 12px;
 }
 .check-line{
     margin: 5px 0 1em 0;
@@ -117,4 +139,5 @@ h3{
     padding-bottom: 15px;
 }
 
-task
+
+
